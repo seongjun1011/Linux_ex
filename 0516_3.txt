@@ -1,0 +1,44 @@
+ncftp /ubuntu/pool/universe/n > exit
+root@seongjun-virtual-machine:~/다운로드# dpkg -r ncftp
+(데이터베이스 읽는중 ...현재 202315개의 파일과 디렉터리가 설치되어 있습니다.)
+ncftp (2:3.2.6-1)를 제거합니다...
+Processing triggers for man-db (2.10.2-1) ...
+root@seongjun-virtual-machine:~/다운로드# ls
+GitHubDesktopSetup-x64.exe              mc_4.8.28-1_amd64.deb
+google-chrome-stable_current_amd64.deb  ncftp_3.2.6-1_amd64.deb
+root@seongjun-virtual-machine:~/다운로드# ls -l mc*
+-rw-r--r-- 1 root root 540062  4월 30  2022 mc_4.8.28-1_amd64.deb
+root@seongjun-virtual-machine:~/다운로드# dpkg -i mc_4.8.28-1_amd64.deb
+Selecting previously unselected package mc.
+(데이터베이스 읽는중 ...현재 202295개의 파일과 디렉터리가 설치되어 있습니다.)
+Preparing to unpack mc_4.8.28-1_amd64.deb ...
+Unpacking mc (3:4.8.28-1) ...
+dpkg: 종속성 문제로 mc의 구성이 차단되었습니다:
+ mc 패키지는 다음 패키지에 의존: libssh2-1 (>= 1.2.8): 하지만:
+  libssh2-1 패키지는 설치하지 않았습니다.
+ mc 패키지는 다음 패키지에 의존: mc-data (= 3:4.8.28-1): 하지만:
+  mc-data 패키지는 설치하지 않았습니다.
+
+dpkg: error processing package mc (--install):
+ 의존성 문제 - 설정하지 않고 남겨둠
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+처리하는데 오류가 발생했습니다:
+ mc
+root@seongjun-virtual-machine:~/다운로드# dpkg -l mc
+희망상태=알수없음(U)/설치(I)/지우기(R)/깨끗이(P)/고정(H)
+| 상태=아님(N)/설치(I)/설정(C)/풀림(U)/절반설정(F)/일부설치(H)/트리거대기(W)/
+| /    트리거밀림(T)
+|/ 오류?=(없음)/다시설치필요(R) (상태, 오류가 대문자=불량)
+||/ 이름           버전         Architecture 설명
++++-==============-============-============-============================================
+iU  mc             3:4.8.28-1   amd64        Midnight Commander - a powerful file manager
+root@seongjun-virtual-machine:~/다운로드# dpkg -r mc
+(데이터베이스 읽는중 ...현재 202397개의 파일과 디렉터리가 설치되어 있습니다.)
+mc (3:4.8.28-1)를 제거합니다...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+root@seongjun-virtual-machine:~/다운로드# 
+
