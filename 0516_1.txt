@@ -1,0 +1,23 @@
+root@seongjun-virtual-machine:~/바탕화면# cd
+root@seongjun-virtual-machine:~# yes  > /dev/null
+^Z
+[1]+  멈춤                  yes > /dev/null
+root@seongjun-virtual-machine:~# bg
+[1]+ yes > /dev/null &
+root@seongjun-virtual-machine:~# jobs
+[1]+  실행중               yes > /dev/null &
+root@seongjun-virtual-machine:~# fg
+yes > /dev/null
+^C 
+root@seongjun-virtual-machine:~# nano
+root@seongjun-virtual-machine:~# nano &
+[1] 3081
+root@seongjun-virtual-machine:~# fg 1
+nano
+root@seongjun-virtual-machine:~# 
+
+
+
+
+
+
