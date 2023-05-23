@@ -1,0 +1,10 @@
+root@seongjun-virtual-machine:~/바탕화면# cd linkdir
+root@seongjun-virtual-machine:~/바탕화면/linkdir# nano originalfile
+root@seongjun-virtual-machine:~/바탕화면/linkdir# nano originalfile
+root@seongjun-virtual-machine:~/바탕화면/linkdir# cat originalfile
+링크시킬 원본 파일을 작성합니다. 
+root@seongjun-virtual-machine:~/바탕화면/linkdir# 
+
+
+
+
