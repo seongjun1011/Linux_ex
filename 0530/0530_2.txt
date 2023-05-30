@@ -1,0 +1,33 @@
+Ubuntu 22.04.2 LTS
+seongjun-virtual-machine login: teluser
+Password:
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.19.0-35-generic x86_64)
+[0;10;7m^G ?꾩?留  ?0;10;7m^O  湲곕줉 ???     ^W ?꾩튂 李얘린    ^K ?섎씪?닿린      ^T ?ㅽ뻾                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                      [ ???뚯씪 ]
+                                                                           ^C ?꾩튂       M-U ?ㅽ뻾 痍⑥냼   M-A 留덊궧 ?ㅼ젙                                                                      ^/ 吏???됱쑝濡?    M-E ?ㅼ떆 ?ㅽ뻾    M-6 蹂teluser@seongjun-virtual-machine:~$
+teluser@seongjun-virtual-machine:~$
